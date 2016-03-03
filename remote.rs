@@ -1,6 +1,5 @@
-pub mod remote;
 
-fn World() ->string {
+pub fn world() ->&'static str {
 	return "remote.World!"
 }
 
